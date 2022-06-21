@@ -10,7 +10,8 @@
             ],
             "@styles/*": [
                 "styles/*"
-            ]
+            ],
+            "@content/*": ["content/*"]
         }
     }
 }
