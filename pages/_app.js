@@ -1,5 +1,5 @@
 import "@styles/globals.css";
-import { BaseLayout } from "@components/layout";
+
 
 
 const Noop = () => <>{children}</>
