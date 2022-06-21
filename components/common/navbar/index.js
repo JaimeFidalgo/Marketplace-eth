@@ -20,7 +20,7 @@ export default function Navbar() {
                             <Link href="/">
                                 <a
                                     className="font-medium mr-8 text-gray-500 hover:text-gray-900">
-                                   MarketPlace
+                                    MarketPlace
                                 </a>
                             </Link>
                             <Link href="/">
@@ -31,13 +31,19 @@ export default function Navbar() {
                             </Link>
                         </div>
                         <div>
-                        <Link href="/">
-                            <a
-                              className="font-medium mr-8 text-gray-500 hover:text-gray-900">
-                                Wishlist
+                            <Link href="/">
+                                <a
+                                    className="font-medium mr-8 text-gray-500 hover:text-gray-900">
+                                    Wishlist
                                 </a>
-                                </Link>
-                            <a href="#" className="font-medium mr-8 text-indigo-600 hover:text-indigo-500">Log in</a>
+                            </Link>
+
+                            <a
+                                href="#"
+                                className="px-8 py-3 border rounded-md text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
+                            >Connect
+                            </a>
+
                         </div>
                     </div>
                 </nav>
